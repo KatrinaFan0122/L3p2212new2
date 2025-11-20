@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+/* Custom styles */
+* {
+  box-sizing: border-box;
+}
+
+/* 统一字体系统 - 优先使用中文友好字体 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', 'Helvetica Neue', 
+    -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* 字体大小层级系统 - 主次分明 */
+
+/* 一级标题 - 页面主标题 */
+h1 {
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+/* 二级标题 - 模块标题 */
+h2 {
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* 三级标题 - 卡片标题/重要标题 */
+h3 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+/* 四级标题 - 小节标题 */
+h4 {
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+/* 五级标题 - 辅助标题 */
+h5 {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+/* 六级标题 */
+h6 {
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+/* 正文 - 标准文本 */
+p {
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+/* 小号文字 - 辅助说明 */
+small {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* 代码字体 */
+code {
+  font-family: 'SF Mono', 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 13px;
+}
+
+/* 按钮文字 */
+button {
+  font-family: 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', 'Helvetica Neue', 
+    -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+}
+
+/* 输入框文字 */
+input, textarea, select {
+  font-family: 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', 'Helvetica Neue', 
+    -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  font-size: 14px;
+}
